@@ -1,0 +1,116 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "UI & UX Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Webflow Development",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    }
+  ],
+  "collaborators": {
+    "Niruthikka Sritharan": "https://github.com/niruthikka24",
+    "Prathushan Inparaj": "https://github.com/Prathush21",
+    "Arvinth Sugumar": "https://github.com/springyboiii",
+    "Nishaanthini Gnanavel": "https://github.com/gnishaanthini",
+    "Zafra Rifky": "https://github.com/zafrarifky",
+    "Hasini Vijayarathna": "https://github.com/hasiniV19",
+    "Akash Tharuka": "https://github.com/akashTharuka",
+    "Shihan Vidulanka": "https://github.com/ShihanVidulanka"
+  },
+  "projects": [
+    {
+      "id": "1",
+      "src": "./img/dataspark/cover.png",
+      "title": "DataSpark",
+      "description": "A web based Data Science platform for users to upload, download rate and review different datasets. Comprehensive details regarding the uploaded and approved datasets are also displayed for user convenience. This project was built using Python, React JS, Flask and MySQL.",
+      "gitHubUrl": "https://github.com/niruthikka24/DataSpark",
+      "teamMembers": ["Niruthikka Sritharan", "Hasini Vijayarathna", "Akash Tharuka", "Shihan Vidulanka"],
+      "images": ["./img/dataspark/img1.png", "./img/dataspark/img2.png", "./img/dataspark/img3.png", "./img/dataspark/img4.png", "./img/dataspark/img5.png", "./img/dataspark/img6.png", "./img/dataspark/img7.png", "./img/dataspark/img8.png", "./img/dataspark/img9.png"],
+      "date": "February 2022 - May 2022"
+    },
+    {
+      "id": "2",
+      "src": "./img/churn/cover.png",
+      "title": "Telco Customer Churn",
+      "description": "A web based application that provides customer churn prediction and an interactive dashboard for derivation of valuable insights to proactively retain customers.This project was built using Python, Scikit-learn, Flask, Power BI, HTML and CSS.",
+      "gitHubUrl": "https://github.com/niruthikka24/Customer-Churn-Dashboard",
+      "teamMembers": ["Niruthikka Sritharan"],
+      "images": ["./img/churn/img1.png"],
+      "date": "March 2022 - July 2022"
+    },
+    {
+      "id": "3",
+      "src": "./img/hrms/cover.png",
+      "title": "Human Resource Management System",
+      "description": "A web application to manage a company’s employee details, leave details and derive reports for comprehensive analysis of the company’s human resource.",
+      "gitHubUrl": "https://github.com/springyboiii/HRMS-v2",
+      "teamMembers": ["Niruthikka Sritharan", "Prathushan Inparaj", "Zafra Rifky", "Arvinth Sugumar", "Nishaanthini Gnanavel"],
+      "images": [],
+      "date": "February 2022 - May 2022"
+    },
+    {
+      "id": "4",
+      "src": "./img/datastorm/cover.png",
+      "title": "Retail Sales Prediction",
+      "description": "An analytics solution to address the sales demand estimation problem of a retail chain leveraging multiple datasets regarding item details, sales and promotions to predict the weekly sales of items. This project was done for Data Storm 3.0 organized by OCTAVE and our solution won the first prize.",
+      "gitHubUrl": "https://github.com/niruthikka24/DataStorm-3.0",
+      "teamMembers": ["Niruthikka Sritharan", "Zafra Rifky"],
+      "images": [],
+      "date": "April 2022"
+    },
+    {
+      "id": "5",
+      "src": "./img/usaccidents/cover.png",
+      "title": "Retail Sales Prediction",
+      "description": "An interactive dashboard was built upon the elaborate analysis performed on the US-Accidents dataset containing over 2 million records. Insights that demonstrate the cause and effect principles to anticipate accidents and influence of environmental stimuli on accidents were derived and presented via a Power BI dashboard. Python libraries and DAX were used for this project.",
+      "gitHubUrl": "https://github.com/niruthikka24/DataStorm-3.0",
+      "teamMembers": ["Niruthikka Sritharan", "Zafra Rifky"],
+      "images": ["./img/usaccidents/img1.png", "./img/usaccidents/img2.png", "./img/usaccidents/img3.png", "./img/usaccidents/img4.png", "./img/usaccidents/img5.png"],
+      "date": "April 2022"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}
