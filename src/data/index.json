@@ -34,7 +34,9 @@
     "Hasini Vijayarathna": "https://github.com/hasiniV19",
     "Akash Tharuka": "https://github.com/akashTharuka",
     "Shihan Vidulanka": "https://github.com/ShihanVidulanka",
-    "Sandaruwan T.H.P.D": "https://github.com/PrasadDSandaruwan"
+    "Sandaruwan T.H.P.D": "https://github.com/PrasadDSandaruwan",
+    "Abinesh Thaventhirarajah": "https://github.com/abinesht",
+    "Laksika Tharmalingam": "https://github.com/laksi1999"
   },
   "projects": [
     {
@@ -96,6 +98,26 @@
       "teamMembers": ["Niruthikka Sritharan", "Sandaruwan T.H.P.D"],
       "images": ["./img/weatherspark/img1.png", "./img/weatherspark/img2.png", "./img/weatherspark/img3.png", "./img/weatherspark/img4.png", "./img/weatherspark/img5.png", "./img/weatherspark/img6.png", "./img/weatherspark/img7.png", "./img/weatherspark/img8.png", "./img/weatherspark/img9.png"],
       "date": "July 2022 - December 2022"
+    },
+    {
+      "id": "7",
+      "src": "./img/apan56/cover.png",
+      "title": "Renewable Energy Site Selection",
+      "description": "This project was developed for the APAN56 datathon to build a city recommendation solution for wind and solar energy projects, harnessing weather and geographical data in various regions of Sri Lanka. The competition tasks involved EDA, Feature Engineering, Resource Efficiency Identification, Cost-Effective Construction, ROI Modelling and Site Recommendation Strategy. Our team was placed in the top 7.",
+      "gitHubUrl": "https://github.com/niruthikka24/Renewable-Energy-Site-Selection",
+      "teamMembers": ["Niruthikka Sritharan", "Zafra Rifky", "Prathushan Inparaj", "Abinesh Thaventhirarajah"],
+      "images": [],
+      "date": "August 2023"
+    },
+    {
+      "id": "8",
+      "src": "./img/techtriathlon/cover.png",
+      "title": "Brain Tumor Classification",
+      "description": "A Deep Neural Network solution to detect brain tumors using MRI scans. The dataset was composed of over 3000 images classified into 4 classes. This solution was developed for the final phase of Tech-Triathlon organized by Rootcode Labs.",
+      "gitHubUrl": "https://github.com/niruthikka24/Tech-Triathlon-Datathon",
+      "teamMembers": ["Niruthikka Sritharan", "Zafra Rifky", "Prathushan Inparaj", "Arvinth Sugumar", "Laksika Tharmalingam"],
+      "images": [],
+      "date": "August 2023"
     } 
   ],
   "testimonial": [
