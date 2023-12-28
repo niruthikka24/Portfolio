@@ -28,7 +28,7 @@ export default function Modal({ project, closeModal }) {
                 )}
                 <div className="portfolio--section--card--content">
                     <h3 className="portfolio--section--title">{project.title}</h3>
-                    <p className='text-sm'>Jan 2023 - Dec 2023</p>
+                    <p className='text-sm'>{project.date}</p>
                     <p className="text-md">{project.description}</p>
                     <h3 className="portfolio--section--title">Members of the Project</h3>
                     <div className="team-icons">
