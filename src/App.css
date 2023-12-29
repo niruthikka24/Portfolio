@@ -936,3 +936,18 @@ input[type="checkbox"] {
   align-items: center;
   margin-left: 60%;
 }
+
+.contact--icons--container {
+  display: flex;
+  gap: 2vw;
+}
+
+.contact--icon {
+  font-size: 4vw;
+  cursor: pointer;
+  color: black;
+}
+
+.contact--icon:hover {
+  color: var(--primary);
+}

@@ -23,16 +23,6 @@ export default function MyPortfolio() {
     setIsModalOpen(false);
   };
 
-  const toggleFilter = (filter) => {
-    if (filters.includes(filter)) {
-      // If filter is already selected, remove it
-      setFilters(filters.filter((f) => f !== filter));
-    } else {
-      // If filter is not selected, add it
-      setFilters([...filters, filter]);
-    }
-  };
-
   return (
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">

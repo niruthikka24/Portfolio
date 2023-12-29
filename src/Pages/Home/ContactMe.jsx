@@ -1,82 +1,31 @@
+import { MdEmail } from "react-icons/md";
+import { SiLinkedin, SiGithub } from "react-icons/si";
+
 export default function ContactMe() {
+
+  const openLink = (url) => {
+    // const url = "https://github.com/niruthikka24"
+    window.open(url, '_blank')
+  }
+
+  const sendEmail = () => {
+    window.location.href = "mailto:niruthikka.19@cse.mrt.ac.lk"; // Replace with your actual email address
+  };
+
   return (
     <section id="Contact" className="contact--section">
-      <div>
-        <p className="sub--title">Get In Touch</p>
-        <h2>Contact Me</h2>
-        <p className="text-lg">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
-        </p>
+      <h2 className="portfolio--heading">Contact Me</h2>
+      <p className="text-lg">
+        If you have a project, an idea, or just a shared passion for technology, count me in!
+        I am always eager to contribute, learn and grow alongside fellow enthusiasts.
+      </p>
+      <div className="contact--icons--container">
+        <a href="mailto:niruthikka.19@cse.mrt.ac.lk"  onClick={sendEmail}>
+          <MdEmail className="contact--icon"/>
+        </a>
+        <SiLinkedin className="contact--icon" onClick={() => openLink("https://www.linkedin.com/in/niruthikka-sritharan/")} />
+        <SiGithub className="contact--icon" onClick={() => openLink("https://github.com/niruthikka24")} />
       </div>
-      <form className="contact--form--container">
-        <div className="container">
-          <label htmlFor="first-name" className="contact--label">
-            <span className="text-md">First Name</span>
-            <input
-              type="text"
-              className="contact--input text-md"
-              name="first-name"
-              id="first-name"
-              required
-            />
-          </label>
-          <label htmlFor="last-name" className="contact--label">
-            <span className="text-md">Last Name</span>
-            <input
-              type="text"
-              className="contact--input text-md"
-              name="last-name"
-              id="last-name"
-              required
-            />
-          </label>
-          <label htmlFor="email" className="contact--label">
-            <span className="text-md">Email</span>
-            <input
-              type="email"
-              className="contact--input text-md"
-              name="email"
-              id="email"
-              required
-            />
-          </label>
-          <label htmlFor="phone-number" className="contact--label">
-            <span className="text-md">phone-number</span>
-            <input
-              type="number"
-              className="contact--input text-md"
-              name="phone-number"
-              id="phone-number"
-              required
-            />
-          </label>
-        </div>
-        <label htmlFor="choode-topic" className="contact--label">
-          <span className="text-md">Choose a topic</span>
-          <select id="choose-topic" className="contact--input text-md">
-            <option>Select One...</option>
-            <option>Item 1</option>
-            <option>Item 2</option>
-            <option>Item 3</option>
-          </select>
-        </label>
-        <label htmlFor="message" className="contact--label">
-          <span className="text-md">Message</span>
-          <textarea
-            className="contact--input text-md"
-            id="message"
-            rows="8"
-            placeholder="Type your message..."
-          />
-        </label>
-        <label htmlFor="checkboc" className="checkbox--label">
-          <input type="checkbox" required name="checkbox" id="checkbox" />
-          <span className="text-sm">I accept the terms</span>
-        </label>
-        <div>
-          <button className="btn btn-primary contact--form--btn">Submit</button>
-        </div>
-      </form>
     </section>
   );
 }
