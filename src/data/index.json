@@ -1,30 +1,4 @@
 {
-  "skills": [
-    {
-      "id": "1",
-      "src": "./img/product-chain-1.png",
-      "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-    },
-    {
-      "id": "2",
-      "src": "./img/tag-1.png",
-      "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-    },
-    {
-      "id": "3",
-      "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-    },
-    {
-      "id": "4",
-      "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-    }
-  ],
   "skill-items": [
     {
       "id": "1",
@@ -234,35 +208,31 @@
       "title": "Brain Tumor Classification",
       "description": "A Deep Neural Network solution to detect brain tumors using MRI scans. The dataset was composed of over 3000 images classified into 4 classes. This solution was developed for the final phase of Tech-Triathlon organized by Rootcode Labs.",
       "gitHubUrl": "https://github.com/niruthikka24/Tech-Triathlon-Datathon",
-      "teamMembers": ["Niruthikka Sritharan", "Zafra Rifky", "Prathushan Inparaj", "Arvinth Sugumar", "Laksika Tharmalingam"],
+      "teamMembers": ["Niruthikka Sritharan", "Zafra Rifky", "Prathushan Inparaj", "Arvinth Sugumar", "Nishaanthini Gnanavel", "Laksika Tharmalingam"],
       "images": [],
       "date": "August 2023"
     } 
   ],
-  "testimonial": [
+  "achievements": [
     {
       "id": "1",
-      "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
+      "src": "./img/achievements/cover.png",
+      "title": "ChallengerX Champion",
+      "description": "ChallengerX was Sri Lanka’s first AI/ML Incubator programme and competition organized by IFS x Hatch to build a solution to model any disaster event and determine the best response strategy. Our team's winning solution was a web based software system with ArcGIS powered interactive maps that can model geographically distributed assets and disaster events, use historical damage data to predict damage and show graphical insights for newly selected area of interest via automated data preprocessing, feature engineering and predictive model building pipelines. The solution was also integrated with IFS DSE for optimal scheduling of post-disaster restoration tasks.",
+      "articleUrl": "https://archives1.dailynews.lk/2023/05/30/business/304402/ifs-hatch-collaborates-%E2%80%98open-innovation-incubator-challengerx%E2%80%99",
+      "teamMembers": ["Niruthikka Sritharan", "Zafra Rifky", "Prathushan Inparaj", "Arvinth Sugumar", "Nishaanthini Gnanavel"],
+      "images": ["./img/achievements/img1.JPG", "./img/achievements/img2.JPG", "./img/achievements/img3.JPG"],
+      "date": "December 2022 - May 2023"
     },
     {
       "id": "2",
-      "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
-    },
-    {
-      "id": "3",
-      "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
+      "src": "./img/achievements/cover2.png",
+      "title": "Data Storm 3.0 Champion",
+      "description": "Data Storm 3.0 was an Advanced Data Analytics Competition organized by OCTAVE and Rotaract Club. Our team Data Dreamers' winning analytics solution addressed the sales demand estimation problem of a retail chain leveraging multiple datasets regarding item details, sales and promotions to predict the weekly sales of items.",
+      "articleUrl": "https://blog.rotaractmora.org/down-the-memory-lane/",
+      "teamMembers": ["Niruthikka Sritharan", "Zafra Rifky"],
+      "images": ["./img/achievements/img4.jpg", "./img/achievements/img6.jpg", "./img/achievements/img5.jpg"],
+      "date": "April 2022"
     }
   ]
 }

@@ -97,10 +97,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="AboutMe"
+              to="achievements"
               className="navbar--content"
             >
-              About Me
+              Achievements
             </Link>
           </li>
         </ul>

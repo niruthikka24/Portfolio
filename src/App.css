@@ -455,6 +455,8 @@ h2 {
   align-items: center;
   text-align: center;
   gap: 64px;
+  background-color: var(--bg-shade);
+
 }
 .contact--form--container {
   display: grid;
@@ -927,4 +929,10 @@ input[type="checkbox"] {
   .skill--section--card {
     width: 80%;
   }
+}
+
+.achievements--section--btndiv {
+  padding: 0% 4% 4% 4%;
+  align-items: center;
+  margin-left: 60%;
 }
