@@ -111,13 +111,6 @@
       ]
     }
   ],
-  "filters": {
-    "Programming Languages": ["Python", "JavaScript", "SQL"],
-    "Python Libraries": ["PyTorch", "TensorFlow", "Scikit-learn", "NumPy", "Pandas", "Matplotlib", "Seaborn"],
-    "Frontend and Backend Technologies": ["React JS", "HTML", "CSS", "Flask", "Node JS", "Express JS"],
-    "Databases": ["MySQL", "MongoDB"],
-    "Tools and Other": ["Power BI", "Jupyter Notebook"]
-  },
   "collaborators": {
     "Niruthikka Sritharan": "https://github.com/niruthikka24",
     "Prathushan Inparaj": "https://github.com/Prathush21",
@@ -133,46 +126,6 @@
   },
   "projects": [
     {
-      "id": "1",
-      "src": "./img/dataspark/cover.png",
-      "title": "DataSpark",
-      "description": "A web based Data Science platform for users to upload, download rate and review different datasets. Comprehensive details regarding the uploaded and approved datasets are also displayed for user convenience. This project was built using Python, React JS, Flask and MySQL.",
-      "gitHubUrl": "https://github.com/niruthikka24/DataSpark",
-      "teamMembers": ["Niruthikka Sritharan", "Hasini Vijayarathna", "Akash Tharuka", "Shihan Vidulanka"],
-      "images": ["./img/dataspark/img1.png", "./img/dataspark/img2.png", "./img/dataspark/img3.png", "./img/dataspark/img4.png", "./img/dataspark/img5.png", "./img/dataspark/img6.png", "./img/dataspark/img7.png", "./img/dataspark/img8.png", "./img/dataspark/img9.png"],
-      "date": "February 2022 - May 2022"
-    },
-    {
-      "id": "2",
-      "src": "./img/churn/cover.png",
-      "title": "Telco Customer Churn",
-      "description": "A web based application that provides customer churn prediction and an interactive dashboard for derivation of valuable insights to proactively retain customers.This project was built using Python, Scikit-learn, Flask, Power BI, HTML and CSS.",
-      "gitHubUrl": "https://github.com/niruthikka24/Customer-Churn-Dashboard",
-      "teamMembers": ["Niruthikka Sritharan"],
-      "images": ["./img/churn/img1.png"],
-      "date": "March 2022 - July 2022"
-    },
-    {
-      "id": "3",
-      "src": "./img/hrms/cover.png",
-      "title": "Human Resource Management System",
-      "description": "A web application to manage a company’s employee details, leave details and derive reports for comprehensive analysis of the company’s human resource.",
-      "gitHubUrl": "https://github.com/springyboiii/HRMS-v2",
-      "teamMembers": ["Niruthikka Sritharan", "Prathushan Inparaj", "Zafra Rifky", "Arvinth Sugumar", "Nishaanthini Gnanavel"],
-      "images": [],
-      "date": "February 2022 - May 2022"
-    },
-    {
-      "id": "4",
-      "src": "./img/datastorm/cover.png",
-      "title": "Retail Sales Prediction",
-      "description": "An analytics solution to address the sales demand estimation problem of a retail chain leveraging multiple datasets regarding item details, sales and promotions to predict the weekly sales of items. This project was done for Data Storm 3.0 organized by OCTAVE and our solution won the first prize.",
-      "gitHubUrl": "https://github.com/niruthikka24/DataStorm-3.0",
-      "teamMembers": ["Niruthikka Sritharan", "Zafra Rifky"],
-      "images": [],
-      "date": "April 2022"
-    },
-    {
       "id": "5",
       "src": "./img/usaccidents/cover.png",
       "title": "USA Accidents Dashboard",
@@ -183,14 +136,14 @@
       "date": "April 2023 - July 2023"
     },
     {
-      "id": "6",
-      "src": "./img/weatherspark/cover.png",
-      "title": "WeatherSpark",
-      "description": "A web based software system that provides short-term predictions of air temperature and interactive dashboard for analysis of weather data. This was developed using Python, TensorFlow, Flask, React JS, Chart.js and Mongo DB.",
-      "gitHubUrl": "https://github.com/PrasadDSandaruwan/weather-app",
-      "teamMembers": ["Niruthikka Sritharan", "Sandaruwan T.H.P.D"],
-      "images": ["./img/weatherspark/img1.png", "./img/weatherspark/img2.png", "./img/weatherspark/img3.png", "./img/weatherspark/img4.png", "./img/weatherspark/img5.png", "./img/weatherspark/img6.png", "./img/weatherspark/img7.png", "./img/weatherspark/img8.png", "./img/weatherspark/img9.png"],
-      "date": "July 2022 - December 2022"
+      "id": "1",
+      "src": "./img/dataspark/cover.png",
+      "title": "DataSpark",
+      "description": "A web based Data Science platform for users to upload, download rate and review different datasets. Comprehensive details regarding the uploaded and approved datasets are also displayed for user convenience. This project was built using Python, React JS, Flask and MySQL.",
+      "gitHubUrl": "https://github.com/niruthikka24/DataSpark",
+      "teamMembers": ["Niruthikka Sritharan", "Hasini Vijayarathna", "Akash Tharuka", "Shihan Vidulanka"],
+      "images": ["./img/dataspark/img1.png", "./img/dataspark/img2.png", "./img/dataspark/img3.png", "./img/dataspark/img4.png", "./img/dataspark/img5.png", "./img/dataspark/img6.png", "./img/dataspark/img7.png", "./img/dataspark/img8.png", "./img/dataspark/img9.png"],
+      "date": "February 2022 - May 2022"
     },
     {
       "id": "7",
@@ -203,6 +156,26 @@
       "date": "August 2023"
     },
     {
+      "id": "2",
+      "src": "./img/churn/cover.png",
+      "title": "Telco Customer Churn",
+      "description": "A web based application that provides customer churn prediction and an interactive dashboard for derivation of valuable insights to proactively retain customers.This project was built using Python, Scikit-learn, Flask, Power BI, HTML and CSS.",
+      "gitHubUrl": "https://github.com/niruthikka24/Customer-Churn-Dashboard",
+      "teamMembers": ["Niruthikka Sritharan"],
+      "images": ["./img/churn/img1.png"],
+      "date": "March 2022 - July 2022"
+    },
+    {
+      "id": "6",
+      "src": "./img/weatherspark/cover.png",
+      "title": "WeatherSpark",
+      "description": "A web based software system that provides short-term predictions of air temperature and interactive dashboard for analysis of weather data. This was developed using Python, TensorFlow, Flask, React JS, Chart.js and Mongo DB.",
+      "gitHubUrl": "https://github.com/PrasadDSandaruwan/weather-app",
+      "teamMembers": ["Niruthikka Sritharan", "Sandaruwan T.H.P.D"],
+      "images": ["./img/weatherspark/img1.png", "./img/weatherspark/img2.png", "./img/weatherspark/img3.png", "./img/weatherspark/img4.png", "./img/weatherspark/img5.png", "./img/weatherspark/img6.png", "./img/weatherspark/img7.png", "./img/weatherspark/img8.png", "./img/weatherspark/img9.png"],
+      "date": "July 2022 - December 2022"
+    },
+    {
       "id": "8",
       "src": "./img/techtriathlon/cover.png",
       "title": "Brain Tumor Classification",
@@ -211,6 +184,26 @@
       "teamMembers": ["Niruthikka Sritharan", "Zafra Rifky", "Prathushan Inparaj", "Arvinth Sugumar", "Nishaanthini Gnanavel", "Laksika Tharmalingam"],
       "images": [],
       "date": "August 2023"
+    },
+    {
+      "id": "4",
+      "src": "./img/datastorm/cover.png",
+      "title": "Retail Sales Prediction",
+      "description": "An analytics solution to address the sales demand estimation problem of a retail chain leveraging multiple datasets regarding item details, sales and promotions to predict the weekly sales of items. This project was done for Data Storm 3.0 organized by OCTAVE and our solution won the first prize.",
+      "gitHubUrl": "https://github.com/niruthikka24/DataStorm-3.0",
+      "teamMembers": ["Niruthikka Sritharan", "Zafra Rifky"],
+      "images": [],
+      "date": "April 2022"
+    },
+    {
+      "id": "3",
+      "src": "./img/hrms/cover.png",
+      "title": "Human Resource Management System",
+      "description": "A web application to manage a company’s employee details, leave details and derive reports for comprehensive analysis of the company’s human resource.",
+      "gitHubUrl": "https://github.com/springyboiii/HRMS-v2",
+      "teamMembers": ["Niruthikka Sritharan", "Prathushan Inparaj", "Zafra Rifky", "Arvinth Sugumar", "Nishaanthini Gnanavel"],
+      "images": [],
+      "date": "February 2022 - May 2022"
     } 
   ],
   "achievements": [
