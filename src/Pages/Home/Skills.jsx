@@ -1,8 +1,8 @@
 import data from "../../data/index.json";
 
-export default function Testimonial() {
+export default function Skills() {
   return (
-    <section className="testimonial--section" id="testimonial">
+    <section className="testimonial--section" id="skills">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
           <p className="sub--title">Clients Feedback</p>

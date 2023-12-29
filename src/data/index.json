@@ -25,6 +25,13 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
     }
   ],
+  "filters": {
+    "Programming Languages": ["Python", "JavaScript", "SQL"],
+    "Python Libraries": ["PyTorch", "TensorFlow", "Scikit-learn", "NumPy", "Pandas", "Matplotlib", "Seaborn"],
+    "Frontend and Backend Technologies": ["React JS", "HTML", "CSS", "Flask", "Node JS", "Express JS"],
+    "Databases": ["MySQL", "MongoDB"],
+    "Tools and Other": ["Power BI", "Jupyter Notebook"]
+  },
   "collaborators": {
     "Niruthikka Sritharan": "https://github.com/niruthikka24",
     "Prathushan Inparaj": "https://github.com/Prathush21",

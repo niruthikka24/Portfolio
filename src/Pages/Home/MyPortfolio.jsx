@@ -6,6 +6,7 @@ export default function MyPortfolio() {
 
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [selectedProject, setSelectedProject] = useState(null)
+  const [filters, setFilters] = useState([]);
 
   const openGitHub = (gitHubUrl) => {
     // const gitHubUrl = "https://github.com/niruthikka24"
@@ -20,6 +21,16 @@ export default function MyPortfolio() {
   const closeModal = () => {
     setSelectedProject(null)
     setIsModalOpen(false);
+  };
+
+  const toggleFilter = (filter) => {
+    if (filters.includes(filter)) {
+      // If filter is already selected, remove it
+      setFilters(filters.filter((f) => f !== filter));
+    } else {
+      // If filter is not selected, add it
+      setFilters([...filters, filter]);
+    }
   };
 
   return (

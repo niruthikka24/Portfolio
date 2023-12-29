@@ -1,6 +1,7 @@
 import { FaGithub } from 'react-icons/fa';
 import { useState } from 'react';
 import data from "../../data/index.json";
+import { MdClose, MdChevronLeft, MdChevronRight } from "react-icons/md";
 
 export default function Modal({ project, closeModal }) {
 
@@ -17,13 +18,12 @@ export default function Modal({ project, closeModal }) {
     return (
         <div className="modal-overlay">
             <div className="modal-content">
-                {/* Add your modal content here */}
-                <p className="close--modal" onClick={closeModal}>X</p>                
+                <MdClose className="close--modal" onClick={closeModal} />
                 {project.images.length >= 1 && (
                     <div className="modal--section--img">
-                    <button className="nav-btn" onClick={handlePrevImage}>&lt;</button>
+                    <MdChevronLeft className="modal--img--navigator" onClick={handlePrevImage}/>
                     <img src={project.images[currentImageIndex]} alt="Placeholder" />
-                    <button className="nav-btn" onClick={handleNextImage}>&gt;</button>
+                    <MdChevronRight className="modal--img--navigator" onClick={handleNextImage} />
                 </div>
                 )}
                 <div className="portfolio--section--card--content">
