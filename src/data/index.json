@@ -25,6 +25,118 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
     }
   ],
+  "skill-items": [
+    {
+      "id": "1",
+      "title": "Programming Languages",
+      "techs": [
+        {
+          "name": "Python",
+          "imagesrc": "./img/skills/python.png"
+        },
+        {
+          "name": "JavaScript",
+          "imagesrc": "./img/skills/javascript.png"
+        },
+        {
+          "name": "Java",
+          "imagesrc": "./img/skills/java.png"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Frontend and Backend Technologies",
+      "techs": [
+        {
+          "name": "React JS",
+          "imagesrc": "./img/skills/reactjs.png"
+        },
+        {
+          "name": "HTML",
+          "imagesrc": "./img/skills/html.png"
+        },
+        {
+          "name": "CSS",
+          "imagesrc": "./img/skills/css.png"
+        },
+        {
+          "name": "Flask",
+          "imagesrc": "./img/skills/flask.png"
+        },
+        {
+          "name": "Node JS",
+          "imagesrc": "./img/skills/nodejs.png"
+        },
+        {
+          "name": "Express JS",
+          "imagesrc": "./img/skills/expressjs.png"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Python Libraries",
+      "techs": [
+        {
+          "name": "PyTorch",
+          "imagesrc": "./img/skills/pytorch.png"
+        },
+        {
+          "name": "TensorFlow",
+          "imagesrc": "./img/skills/tensorflow.png"
+        },
+        {
+          "name": "Scikit-learn",
+          "imagesrc": "./img/skills/scikit-learn.png"
+        },
+        {
+          "name": "NumPy",
+          "imagesrc": "./img/skills/numpy.png"
+        },
+        {
+          "name": "Pandas",
+          "imagesrc": "./img/skills/pandas.png"
+        },
+        {
+          "name": "Matplotlib",
+          "imagesrc": "./img/skills/matplotlib.png"
+        },
+        {
+          "name": "Seaborn",
+          "imagesrc": "./img/skills/seaborn.png"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Databases",
+      "techs": [
+        {
+          "name": "MySQL",
+          "imagesrc": "./img/skills/mysql.png"
+        },
+        {
+          "name": "MongoDB",
+          "imagesrc": "./img/skills/mongodb.png"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Tools and Other",
+      "techs": [
+        {
+          "name": "Power BI",
+          "imagesrc": "./img/skills/powerbi.png"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "imagesrc": "./img/skills/jupyter.png"
+        }
+      ]
+    }
+  ],
   "filters": {
     "Programming Languages": ["Python", "JavaScript", "SQL"],
     "Python Libraries": ["PyTorch", "TensorFlow", "Scikit-learn", "NumPy", "Pandas", "Matplotlib", "Seaborn"],
