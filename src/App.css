@@ -854,27 +854,15 @@ input[type="checkbox"] {
   }
 }
 
-.skill-tech {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1vw;
-  padding: 3%;
-  border: 1px solid var(--primary);
-  background-color: white;
-  border-radius: 10px;
-}
-.skill-tech p {
-  font-size: 1.5vw;
-  font-family: 'Crimson Pro', serif;
-}
-.skill-icon {
-  height: 2vh;
-  width: 2vw;
-}
 
-.skill-name {
-  font-size: 1.5vw;
+
+.tech--section--container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  align-items: stretch;
+  justify-content: center;
 }
 
 .skill--section--card {
@@ -887,24 +875,46 @@ input[type="checkbox"] {
   border-radius: 8px;
   border: 1.33px solid var(--primary);
   width: 25%;
+  background-color: var(--primary);
 }
 
 .skill-tech-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Set to have 2 items in a row */
+  display: flex;
+  flex-wrap: wrap;
   gap: 1vw;
-  width: 100%;
   align-items: center;
   justify-content: center;
 }
 
-.tech--section--container {
+.skill-tech {
   display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  width: 100%;
-  align-items: stretch;
+  align-items: center;
   justify-content: center;
+  gap: 1vw;
+  padding: 3%;
+  border: 1px solid var(--primary);
+  background-color: white;
+  border-radius: 10px;
+  /* width: 47%; */
+}
+.skill-tech p {
+  font-size: 1.5vw;
+  font-family: 'Crimson Pro', serif;
+}
+.skill-icon {
+  height: 2vh;
+  width: 2vw;
+}
+
+.tech--title {
+  color: white;
+  font-size: 21px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  display: flex;
+  align-items: flex-start;
 }
 
 @media only screen and (max-width: 1200px) {

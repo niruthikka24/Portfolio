@@ -7,7 +7,7 @@ export default function Skills() {
       <div className="tech--section--container">
         {data?.['skill-items']?.map((item, index) => (
           <div key={index} className="skill--section--card">
-            <p className="section--title">{item.title}</p>
+            <p className="tech--title">{item.title}</p>
             <div className="skill-tech-container">
               {item.techs?.map((tech, tindex) => (
                 <button className="skill-tech" key={tindex}>
