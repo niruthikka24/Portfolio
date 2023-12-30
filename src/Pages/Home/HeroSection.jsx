@@ -15,9 +15,9 @@ export default function HeroSection() {
   const [termIndex, setTermIndex] = useState(0);
 
   const openResume = () => {
-    const resumeUrl = "https://drive.google.com/file/d/1AmoUHFbtZVkMOcld3cbQZBJFp_LvjzrS/view?usp=sharing"
+    const resumeUrl = "https://drive.google.com/file/d/1lKxPdLukJc1nZlfiOI771eB10EM79QTU/view?usp=sharing"
     window.open(resumeUrl, '_blank')
-}
+  }
 
   useEffect(() => {
     // Set up an interval to change the term every 3 seconds (adjust as needed)
@@ -42,7 +42,7 @@ export default function HeroSection() {
             {endings[termIndex]}
           </h1>
           <p className="hero--section-description">
-            Enthusiast by nature, I am on a quest to explore and apply techniques in the landscapes of Computer Science, Data Science and Machine Learning. I constantly try to develop solutions at the intersection of creativity and technology.
+            Enthusiast by nature, I am on a quest to explore and apply techniques in the landscapes of Computer Science, Data Science, Machine Learning and Engineering. I constantly try to develop solutions at the intersection of creativity and technology. I eagerly seek opportunities to contribute my skills, learn from others, and collectively grow.
           </p>
         </div>
         <button className="btn btn-primary" onClick={openResume}>View My Resume</button>
