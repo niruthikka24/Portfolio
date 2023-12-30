@@ -162,7 +162,7 @@
       "description": "A web based application that provides customer churn prediction and an interactive dashboard for derivation of valuable insights to proactively retain customers.This project was built using Python, Scikit-learn, Flask, Power BI, HTML and CSS.",
       "gitHubUrl": "https://github.com/niruthikka24/Customer-Churn-Dashboard",
       "teamMembers": ["Niruthikka Sritharan"],
-      "images": ["./img/churn/img1.png"],
+      "images": ["./img/churn/img1.PNG"],
       "date": "March 2022 - July 2022"
     },
     {

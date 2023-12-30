@@ -6,10 +6,14 @@ export default function MyPortfolio() {
 
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [selectedProject, setSelectedProject] = useState(null)
-  const [filters, setFilters] = useState([]);
 
   const openGitHub = (gitHubUrl) => {
     // const gitHubUrl = "https://github.com/niruthikka24"
+    window.open(gitHubUrl, '_blank')
+  }
+
+  const viewGitHub = () => {
+    const gitHubUrl = "https://github.com/niruthikka24"
     window.open(gitHubUrl, '_blank')
   }
 
@@ -28,7 +32,7 @@ export default function MyPortfolio() {
       <div className="portfolio--container-box">
         <h2 className="portfolio--heading">Projects</h2>
         <div>
-          <button className="btn btn-primary" onClick={openGitHub}>View My GitHub</button>
+          <button className="btn btn-primary" onClick={viewGitHub}>View My GitHub</button>
         </div>
       </div>
       <div className="portfolio--section--container">
