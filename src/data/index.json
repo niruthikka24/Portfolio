@@ -132,7 +132,7 @@
       "description": "An interactive dashboard was built upon the elaborate analysis performed on the US-Accidents dataset containing over 2 million records. Insights that demonstrate the cause and effect principles to anticipate accidents and influence of environmental stimuli on accidents were derived and presented via a Power BI dashboard. Python libraries and DAX were used for this project.",
       "gitHubUrl": "https://github.com/niruthikka24/USA-Accidents-Analysis",
       "teamMembers": ["Niruthikka Sritharan", "Zafra Rifky"],
-      "images": ["./img/usaccidents/img1.png", "./img/usaccidents/img2.png", "./img/usaccidents/img3.png", "./img/usaccidents/img4.png", "./img/usaccidents/img5.png"],
+      "images": ["./img/usaccidents/img1.PNG", "./img/usaccidents/img2.PNG", "./img/usaccidents/img3.PNG", "./img/usaccidents/img4.PNG", "./img/usaccidents/img5.PNG"],
       "date": "April 2023 - July 2023"
     },
     {
