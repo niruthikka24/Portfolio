@@ -114,7 +114,6 @@ h2 {
 }
 
 /* Section Titles */
-/* Skills & About Me */
 .section--title {
   color: var(--heading-color);
   font-size: 21px;
@@ -176,7 +175,6 @@ h2 {
 .navbar--active-content {
   color: var(--primary);
 }
-/* Navbar Styler Ends */
 
 /* Hero Section Style */
 .hero--section {
@@ -226,9 +224,8 @@ h2 {
   width: 100%;
   height: 100%;
 }
-/* Hero Section Style Ends */
 
-/* My Portfolio Starts */
+/* My Portfolio Styling Starts */
 .portfolio--section {
   display: flex;
   padding: 112px 85px;
@@ -279,8 +276,6 @@ h2 {
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
   border-radius: 20px;
-  /* border-top-left-radius: 20px;
-  border-top-right-radius: 20px; */
 }
 .portfolio--section--card:hover {
   border-bottom: 4px solid var(--primary);
@@ -303,9 +298,8 @@ h2 {
   margin-top: auto;
 
 }
-/* Portfolio Ends */
 
-/* Testimonial */
+/* Testimonial Section Styling Starts*/
 .testimonial--section {
   display: flex;
   padding: 112px 84.3px;
@@ -314,7 +308,8 @@ h2 {
   gap: 80px;
   background-color: var(--bg-shade);
 }
-/* Testimonial Ends */
+
+/* Contact Section Styling Starts */
 .contact--section {
   display: flex;
   padding: 150px 85px;
@@ -326,7 +321,6 @@ h2 {
   background-color: var(--bg-shade);
 
 }
-/* Contact End */
 
 /* Footer Start */
 .footer--container {
@@ -564,7 +558,7 @@ h2 {
 }
 
 
-
+/* Skills Section Styling Starts */
 .tech--section--container {
   display: flex;
   flex-wrap: wrap;
@@ -638,6 +632,7 @@ h2 {
   }
 }
 
+/* Achievements Section Styling Starts */
 .achievements--section--btndiv {
   padding: 0% 4% 4% 4%;
   align-items: center;
