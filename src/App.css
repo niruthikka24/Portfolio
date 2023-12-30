@@ -296,14 +296,6 @@ h2 {
 .portfolio--section--title {
   color: var(--heading-color);
 }
-.portfolio--link {
-  text-decoration: none;
-  display: flex;
-  gap: 16px;
-  border-bottom: 1.33px solid var(--primary);
-  padding-bottom: 10.6px;
-  font-weight: 600;
-}
 
 .portfolio--section--btndiv {
   padding: 0% 4% 4% 4%;
@@ -322,30 +314,6 @@ h2 {
   gap: 80px;
   background-color: var(--bg-shade);
 }
-.sections--heading {
-  color: var(--heading-color);
-}
-
-.testimonial--section--card--reviews {
-  display: flex;
-  align-items: flex-start;
-  gap: 5.33px;
-}
-.testimonial--section--card--author--detail {
-  display: flex;
-  align-items: center;
-  gap: 21.3px;
-}
-.testimonial--author--name {
-  font-weight: 600;
-  color: var(--heading-color);
-}
-.testimonial--author--designation {
-  color: var(--darkblue);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
-}
 /* Testimonial Ends */
 .contact--section {
   display: flex;
@@ -358,78 +326,9 @@ h2 {
   background-color: var(--bg-shade);
 
 }
-.contact--form--container {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: repeat(5, auto);
-  width: 40%;
-  row-gap: 32px;
-}
-.container {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  column-gap: 32px;
-  row-gap: 32px;
-}
-.contact--label {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10.6px;
-  flex: 1 0 0;
-  width: 100%;
-}
-.contact--input {
-  display: flex;
-  font-family: "Roboto";
-  padding: 16px;
-  align-items: center;
-  align-self: stretch;
-  border-radius: 8px;
-  border: 1.333px solid var(--primary);
-  background: var(--white);
-}
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  /* Some browsers will not display the caret when using calc, so we put the fallback first */
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 21.2052C16.2374 21.4981 15.7626 21.4981 15.4697 21.2052L7.82318 13.5587C7.53029 13.2658 7.53029 12.791 7.82318 12.4981L8.17674 12.1445C8.46963 11.8516 8.9445 11.8516 9.2374 12.1445L16 18.9071L22.7626 12.1445C23.0555 11.8516 23.5303 11.8516 23.8232 12.1445L24.1768 12.4981C24.4697 12.791 24.4697 13.2658 24.1768 13.5587L16.5303 21.2052Z" fill="%23033333"/></svg>')
-    white no-repeat 98.5% !important; /* !important used for overriding all other customisations */
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 21.2052C16.2374 21.4981 15.7626 21.4981 15.4697 21.2052L7.82318 13.5587C7.53029 13.2658 7.53029 12.791 7.82318 12.4981L8.17674 12.1445C8.46963 11.8516 8.9445 11.8516 9.2374 12.1445L16 18.9071L22.7626 12.1445C23.0555 11.8516 23.5303 11.8516 23.8232 12.1445L24.1768 12.4981C24.4697 12.791 24.4697 13.2658 24.1768 13.5587L16.5303 21.2052Z" fill="%23033333"/></svg>')
-    white no-repeat calc(100% - 20px); /* Better placement regardless of input width */
-}
-/*For IE*/
-select::-ms-expand {
-  display: none;
-}
-.checkbox--label {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10.6px;
-  flex: 1 0 0;
-  justify-content: flex-start;
-}
-input[type="checkbox"] {
-  width: 21px;
-  height: 21px;
-  border: 0.15em solid var(--heading-color);
-  border-radius: 0.15em;
-  transform: translatey(-0.075em);
-}
 /* Contact End */
 
 /* Footer Start */
-/* Footer Starts */
-/* .footer--container {
-  display: flex;
-  padding: 106.667px 10px;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-} */
-
 .footer--container {
   padding-top: 50px;
   padding-bottom: 10px;
@@ -446,34 +345,6 @@ input[type="checkbox"] {
     font-size: 68px;
     line-height: 70px;
   }
-  .skills--section--title {
-    font-size: 28px;
-    line-height: 40px;
-  }
-}
-
-@media only screen and (max-width: 1600px) {
-  .skills--section--heading {
-    font-size: 54px;
-    line-height: 70px;
-  }
-  .skills--section--container {
-    gap: 16px;
-  }
-  .skills--section--card {
-    gap: 28px;
-  }
-  .skills--section--card--content {
-    gap: 20px;
-  }
-  .skills--section--title {
-    font-size: 23px;
-    line-height: 30px;
-  }
-  .skills--section--description {
-    font-size: 17.333px;
-    line-height: 27px;
-  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -486,21 +357,14 @@ input[type="checkbox"] {
     padding-bottom: 70px;
   }
   .hero--section--title,
-  .hero--section-description,
-  .footer--content {
+  .hero--section-description {
     text-align: center;
   }
-  .skills--section--container,
-  .about--section,
   .portfolio--section--container,
-  .portfolio--container-box,
-  .footer--link--container,
-  .footer--items > ul,
-  .footer--content--container {
+  .portfolio--container-box {
     display: flex;
     flex-direction: column;
   }
-  .skills--section,
   .portfolio--container,
   .hero--section--content,
   .hero--section--content--box {
@@ -509,23 +373,13 @@ input[type="checkbox"] {
   .portfolio--container-box {
     gap: 30px;
   }
-  .skills--section,
   .testimonial--section,
   .contact--section {
     gap: 20px;
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  .about--section {
-    gap: 20px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  .testimonial--section--card {
-    padding: 25px;
-  }
   .hero--section--title,
-  .skills--section--heading,
   .sections--heading {
     font-size: 35px;
     line-height: 40px;
@@ -533,21 +387,10 @@ input[type="checkbox"] {
   .hero--section--content--box {
     gap: 10px;
   }
-  .contact--form--container {
-    width: 100%;
-  }
   .container {
     display: flex;
     flex-direction: column;
     gap: 10px;
-  }
-  .footer--social--icon > ul,
-  .footer--items > ul {
-    padding: 0;
-    align-items: center;
-  }
-  .divider {
-    margin: 20px;
   }
 }
 
@@ -626,7 +469,7 @@ input[type="checkbox"] {
 
 /* Responsive Screens Ends*/
 
-/* Add this styling to your CSS file */
+/*Modal Styling Starts*/
 
 .modal-overlay {
   position: fixed;
@@ -702,7 +545,7 @@ input[type="checkbox"] {
 }
 
 .team-icons a:hover {
-  color: var(--primary); /* Adjust the hover color as needed */
+  color: var(--primary); 
 }
 
 /* Responsive styles for smaller screens */
