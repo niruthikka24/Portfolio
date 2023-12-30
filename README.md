@@ -1,3 +1,3 @@
 # My Portfolio Website
 
-Do check out my portfolio that contains details about projects that I have been working on.
+Do check out my portfolio that contains details about some projects that I have worked on.
