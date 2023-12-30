@@ -2,15 +2,15 @@ import { useState, useEffect } from "react";
 
 export default function HeroSection() {
 
-  // const terms = ["Software", "AI | ML",
-  //   "CSE", "Problem",
-  //   "Avid Self"
-  //   /* Add more terms as needed */
-  // ]
+  const terms = ["Software", "AI | ML",
+    "CSE", "Problem",
+    "Avid Self"
+    /* Add more terms as needed */
+  ]
 
-  // const endings = ['Developer', 'Enthusiast', 'Undergraduate', 'Solver', 'Learner']
+  const endings = ['Developer', 'Enthusiast', 'Undergraduate', 'Solver', 'Learner']
 
-  const newterms = ['Computer Science', 'Machine Learning', 'Data Science', 'Artificial Intelligence']
+  // const newterms = ['Computer Science', 'Machine Learning', 'Data Science', 'Artificial Intelligence']
 
   const [termIndex, setTermIndex] = useState(0);
 
@@ -22,7 +22,7 @@ export default function HeroSection() {
   useEffect(() => {
     // Set up an interval to change the term every 3 seconds (adjust as needed)
     const intervalId = setInterval(() => {
-      setTermIndex((prevIndex) => (prevIndex + 1) % newterms.length);
+      setTermIndex((prevIndex) => (prevIndex + 1) % terms.length);
     }, 3000);
 
     // Cleanup the interval on component unmount
@@ -35,11 +35,11 @@ export default function HeroSection() {
         <div className="hero--section--content">
           <p className="section--title">Hey, I'm Niruthikka Sritharan</p>
           <h1 className="hero--section--title">
-            {/* <span className="hero--section-title--color">{terms[termIndex]}</span>{" "} */}
-            <span className="hero--section-title--color">{newterms[termIndex]}</span>{" "}
+            <span className="hero--section-title--color">{terms[termIndex]}</span>{" "}
+            {/* <span className="hero--section-title--color">{newterms[termIndex]}</span>{" "} */}
             <br />
-            Enthusiast
-            {/* {endings[termIndex]} */}
+            {/* Enthusiast */}
+            {endings[termIndex]}
           </h1>
           <p className="hero--section-description">
             Enthusiast by nature, I am on a quest to explore and apply techniques in the landscapes of Computer Science, Data Science and Machine Learning. I constantly try to develop solutions at the intersection of creativity and technology.
