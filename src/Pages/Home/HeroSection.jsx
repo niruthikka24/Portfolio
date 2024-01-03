@@ -15,7 +15,7 @@ export default function HeroSection() {
   const [termIndex, setTermIndex] = useState(0);
 
   const openResume = () => {
-    const resumeUrl = "https://drive.google.com/file/d/1lKxPdLukJc1nZlfiOI771eB10EM79QTU/view?usp=sharing"
+    const resumeUrl = "https://drive.google.com/file/d/1TAHG039I3m-21nbcmCwwTrXWw-0cOnlg/view?usp=sharing"
     window.open(resumeUrl, '_blank')
   }
 
